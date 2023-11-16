@@ -13,11 +13,10 @@ const CategoryModel = require("./models/category");
 const { DB_USER, DB_PASSWORD, DB_HOST, DBURL } = process.env;
 
 const sequelize = new Sequelize(
-
-	   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/educastream`, 
+	`postgres://postgres:A4gC5EG5afGd65caBcG61DG3E6ecccC3@roundhouse.proxy.rlwy.net:59428/railway`,
+	//`postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/educastream`,
 	//  DBURL,
-	{ 
-
+	{
 		logging: false,
 		native: false,
 		dialectModule: pg,
